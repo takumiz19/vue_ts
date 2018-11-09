@@ -4,11 +4,11 @@ import Hello from "./components/Hello.vue";
 
 Vue.use(VueRouter);
 
-const routes = [
+let routes = [
     {path: '/',component:Hello,name:'hello'}
 ]
 
-const router = new VueRouter({
+let router = new VueRouter({
     routes
 })
 
